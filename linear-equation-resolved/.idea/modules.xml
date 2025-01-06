@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/src/linear-equation-resolover.iml" filepath="$PROJECT_DIR$/src/linear-equation-resolover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linear-equation-resolved.iml" filepath="$PROJECT_DIR$/linear-equation-resolved.iml" />
     </modules>
   </component>
 </project>
