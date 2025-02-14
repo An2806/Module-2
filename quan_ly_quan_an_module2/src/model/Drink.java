@@ -1,5 +1,5 @@
 package model;
 
-public class Drink {
+public class Drink extends Menu {
     private String size;
 }

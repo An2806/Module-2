@@ -32,7 +32,6 @@ public class Main {
                     System.out.print("Nhập giá: ");
                     double price = scanner.nextDouble();
                     scanner.nextLine();
-
                     controller.addMenu(type, name, price);
                     break;
 

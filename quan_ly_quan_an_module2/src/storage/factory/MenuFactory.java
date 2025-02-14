@@ -1,6 +1,8 @@
 package storage.factory;
 
+import model.Drink;
 import model.Food;
+import model.Menu;
 
 public class MenuFactory {
     private static MenuFactory instance;
@@ -14,12 +16,12 @@ public class MenuFactory {
         return instance;
     }
 
-    public Food createMenu(String id) {
+    public Menu createMenu(String id) {
         switch (id) {
             case "Food":
                 return new Food();
             case "Drink":
-//                return new Drink();
+                return new Drink();
             default:
                 throw new IllegalArgumentException("Invalid menu id");
         }
