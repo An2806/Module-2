@@ -1,4 +1,4 @@
-public class TriangleClassifier {
+public class Triangle {
 
     public static String classify(int a, int b, int c) {
         if (a <= 0 || b <= 0 || c <= 0) {
